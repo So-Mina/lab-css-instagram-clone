@@ -6,5 +6,84 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  height: 80vh;
+}
+
+h1 {
+  color: #06365f;
+  padding: 2rem 2rem 0rem;
+}
+
+p {
+  padding: 0 2rem;
+}
+
+.download picture:first-child {
+  padding: 0 0 0 3rem;
+  margin: 1rem;
+}
+
+.text {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  max-width: 30rem;
+  margin: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+
+button {
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
+  border: 1px solid #06365f;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  gap: 1rem;
+  font-size: 0.75rem;
+}
+
+footer a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: 500;
+}
+
+footer span {
+  color: lightgrey;
 }
